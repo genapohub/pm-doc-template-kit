@@ -29,13 +29,12 @@ WorkBuddy PM 文档模板工具包。这个仓库同时维护：
 ## 换机恢复
 
 ```bash
-cd ~/Downloads/WorkBuddy/Skills汇总
+cd ~/Downloads/WorkBuddy/skills
 git clone git@github.com:genapohub/pm-doc-template-kit.git
 ```
 
-如需在工作区根目录保留 `产品经理文档输出模板/` 展示目录，可从仓库模板目录复制：
+不再在工作区根目录维护重复模板展示目录。需要生成项目文档时，从本仓库 `templates/` 复制或转写到目标项目目录，例如：
 
 ```bash
-mkdir -p ~/Downloads/WorkBuddy/产品经理文档输出模板
-cp ~/Downloads/WorkBuddy/Skills汇总/pm-doc-template-kit/templates/*.docx ~/Downloads/WorkBuddy/产品经理文档输出模板/
+cp ~/Downloads/genapoWork/skills/pm-doc-template-kit/templates/03-PRD文档模板.docx ~/Downloads/genapoWork/<项目名>/02-产品文档/<项目名>_PRD_v1.0.docx
 ```
