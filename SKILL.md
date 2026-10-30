@@ -1,6 +1,6 @@
 ---
 name: pm-doc-template-kit
-description: 使用 pm-doc-template-kit/templates 原始模板库创建或补全文档。适用于需求报告、需求评审、PRD、遗留问题、技术风险、工期计划、UI评审、延期记录、测试用例、项目产出物清单等 PM 交付物；不用于替代项目根 AGENTS.md 的流程和目录规则。
+description: 用 templates/ 模板库创建或补全正式 PM 文档：需求报告、需求评审、PRD、遗留问题、技术风险、工期计划、UI 评审、延期记录、测试用例、项目产出物清单；不替代项目根 AGENTS.md 规则。
 version: 1.1.0
 ---
 
