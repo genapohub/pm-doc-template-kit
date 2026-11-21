@@ -36,5 +36,5 @@ git clone git@github.com:genapohub/pm-doc-template-kit.git
 不再在工作区根目录维护重复模板展示目录。需要生成项目文档时，从本仓库 `templates/` 复制或转写到目标项目目录，例如：
 
 ```bash
-cp ~/Downloads/genapoWork/skills/pm-doc-template-kit/templates/03-PRD文档模板.docx ~/Downloads/genapoWork/<项目名>/02-产品文档/<项目名>_PRD_v1.0.docx
+cp ~/Downloads/genapoWork/skills/pm-doc-template-kit/templates/03-PRD文档模板.docx ~/Downloads/genapoWork/<项目名>/01-产品需求库/02-需求PRD/<项目名>_PRD_v1.0.docx
 ```
